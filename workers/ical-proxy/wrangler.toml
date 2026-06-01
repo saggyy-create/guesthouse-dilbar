@@ -1,0 +1,15 @@
+name = "gd-ical-proxy"
+main = "src/index.js"
+compatibility_date = "2026-05-21"
+account_id = "17d8f1fbcd37d517eef83377308ac296"
+
+[triggers]
+crons = ["0 * * * *"]
+
+[vars]
+SELF_BASE_URL = "https://gd-ical-proxy.dilbarhostel.workers.dev"
+AIRBNB_ICAL_URL = "https://www.airbnb.ru/calendar/ical/1545553359053868666.ics?t=8dc650ee21344f31b89c90c90eb4096b"
+
+[[kv_namespaces]]
+binding = "AVAILABILITY_KV"
+id = "8fae81871cfb4350bd54b421c5272c82"

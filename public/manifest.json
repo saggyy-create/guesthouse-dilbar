@@ -1,0 +1,16 @@
+{
+  "name": "Guesthouse Dilbar",
+  "short_name": "Dilbar",
+  "description": "Гостевой дом и апартаменты — бронирование онлайн",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a365d",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

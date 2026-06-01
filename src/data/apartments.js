@@ -1,0 +1,40 @@
+export const apartments = [
+  {
+    id: '1',
+    calId: 'apartments-1',
+    title: 'Апартаменты #1',
+    subtitle: 'Studio City',
+    area: '35 м²',
+    guests: 2,
+    beds: '1 двуспальная',
+    location: 'Центр',
+    image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=2070',
+    features: ['WiFi', 'Кухня', 'Кондиционер'],
+  },
+  {
+    id: '2',
+    calId: 'apartments-2',
+    title: 'Апартаменты #2',
+    subtitle: 'Family Comfort',
+    area: '55 м²',
+    guests: 4,
+    beds: '2 кровати',
+    location: 'Тихий район',
+    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070',
+    features: ['WiFi', 'Кухня', 'Кондиционер'],
+  },
+  {
+    id: '3',
+    calId: 'apartments-3',
+    title: 'Апартаменты #3',
+    subtitle: 'Panorama',
+    area: '60 м²',
+    guests: 4,
+    beds: '2 кровати',
+    location: 'Вид на город',
+    image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=2070',
+    features: ['WiFi', 'Кухня', 'Кондиционер'],
+  },
+]
+
+export const getApartmentById = (id) => apartments.find((a) => a.id === String(id))
